@@ -3,7 +3,7 @@ CREATE DATABASE pizza_runner;
 DROP TABLE IF EXISTS runners;
 CREATE TABLE runners (
   "runner_id" INTEGER,
-  "registration_date" DATE
+  "registration_date" DATETIME2
 );
 INSERT INTO runners
   ("runner_id", "registration_date")
